@@ -34,6 +34,8 @@ Live sass compiler ? (You might have this already)
 
 Beautify css/sass/scss/less
 
+https://getcomposer.org/download/
+
 PHP Intellisense
 
 Emmet Live
