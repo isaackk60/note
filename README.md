@@ -14,24 +14,39 @@ you can test server>nodemon and client>npm start
 
 
 
-\\ IDE for edit commit on git
+\\\ IDE for edit commit on git
+
 Solution:
 
 Go to "Settings | Tools | Terminal" and click "Configure terminal keybindings".
+
 Find "Plug-ins | Terminal | Switch Focus To Editor" action and change its keyboard shortcut (by default "Escape") via context menu.
+
 Keybindings are IDE wide, so no need to change it for each project.
 
  git rebase -i HEAD~3 //number of commit have to change
+ 
+ 
  esc i 
+ 
  change pick to edit (for the commit you want to change)
+ 
  esc
+ 
  shift z
-  git commit --amend   
-  esc i 
+ 
+ git commit --amend   
+ 
+ esc i 
+ 
  change commit
+ 
  esc
+ 
  shift z
+ 
  git rebase --continue
+ 
  git push -f (when rebase is done) 
   
  
