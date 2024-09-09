@@ -117,3 +117,16 @@ https://getcomposer.org/download/
 PHP Intellisense
 
 Emmet Live
+
+
+# python anaconda prompt
+//on prompt
+conda create -n env_name python=3.12.4 anaconda or conda create -n "env_name"
+conda activate env_name
+pip install pillow
+pip install face-recognition 
+
+# android
+https://developer.android.com/studio
+
+
