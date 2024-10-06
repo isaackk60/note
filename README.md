@@ -1,4 +1,4 @@
-# setUpNewLaptop
+# Note
 First
 SetUp nodejs
 install https://nodejs.org/en/download/
